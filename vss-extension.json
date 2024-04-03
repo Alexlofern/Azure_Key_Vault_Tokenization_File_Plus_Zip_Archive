@@ -1,0 +1,74 @@
+{
+    "manifestVersion": 1,
+    "id": "AzKVTkZip",
+    "name": "Azure Key Vault Tokenization File with Zip Archive Support",
+    "version": "1.0.84",
+	"public": true,
+    "publisher": "Alexlofern",
+	"categories": ["Azure Pipelines"],
+	"tags": [
+        "Azure",
+		"Key Vault",
+		"KeyVault",
+		"Tokening",
+        "Tokenize",
+		"Token",
+		"Tokenization",
+		"Replace",
+		"Transform",
+		"Zip",
+		"File",
+        "__DoNotDownload"
+    ],
+    "content": {
+        "details": {
+            "path": "overview.md"
+        },
+        "license": {
+            "path": "license-terms.md"
+        }
+    },
+    "links": {
+        "home": {
+            "uri": "https://www.linkedin.com/in/alexlofern/"
+        },
+        "getstarted": {
+            "uri": "https://marketplace.visualstudio.com/items?itemName=Alexlofern.AzKVTkZip&ssr=false#overview"
+        },
+        "support": {
+            "uri": "https://marketplace.visualstudio.com/items?itemName=Alexlofern.AzKVTkZip&ssr=false#qna"
+        },
+        "privacypolicy": {
+            "uri": "https://marketplace.visualstudio.com/items?itemName=Alexlofern.AzKVTkZip&ssr=false#overview"
+        }
+    },	
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "Tool for tokenize files, inside or not of a zip archive using Azure Key Vault Secrets.",
+    "icons": {
+        "default": "logo.png"        
+    },
+    "files": [
+        {
+            "path": "AzKVTkZip"
+        },
+        {
+            "path": "screenshot.png", "addressable": true
+        }
+    ],
+    "contributions": [
+        {
+            "id": "AzKVTkZip",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "AzKVTkZip"
+            }
+        }
+    ]
+}
